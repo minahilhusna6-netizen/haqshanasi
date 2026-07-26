@@ -1,0 +1,6 @@
+{
+  "name": "HaqShanasi",
+  "description": "An AI legal rights companion for Pakistani women providing accessible information on marriage, divorce, inheritance, property, workplace harassment, and domestic violence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-terracotta: #B85C38;
+    --color-terracotta-dark: #9A4A2B;
+    --color-terracotta-light: #F2E2D8;
+    --color-sage: #6B7F59;
+    --color-sage-dark: #4C5B3F;
+    --color-sage-light: #E8EFE3;
+    --color-cream: #F5F0E8;
+    --color-cream-paper: #EFE8DC;
+    --color-charcoal: #1A1A1A;
+    --color-charcoal-muted: #4A4A4A;
+  }
+
+  body {
+    background-color: #F5F0E8;
+    color: #1A1A1A;
+    font-family: 'Source Sans Pro', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-serif-editorial {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+
+  .font-urdu {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    line-height: 2;
+  }
+}
+
+/* Magazine Editorial Custom Utility Classes */
+.bg-cream {
+  background-color: #F5F0E8;
+}
+
+.bg-cream-paper {
+  background-color: #EFE8DC;
+}
+
+.bg-terracotta {
+  background-color: #B85C38;
+}
+
+.bg-terracotta-light {
+  background-color: #F2E2D8;
+}
+
+.bg-sage {
+  background-color: #6B7F59;
+}
+
+.bg-sage-light {
+  background-color: #E8EFE3;
+}
+
+.text-terracotta {
+  color: #B85C38;
+}
+
+.text-sage {
+  color: #6B7F59;
+}
+
+.text-charcoal {
+  color: #1A1A1A;
+}
+
+.border-terracotta {
+  border-color: #B85C38;
+}
+
+.border-sage {
+  border-color: #6B7F59;
+}
+
+.border-charcoal {
+  border-color: #1A1A1A;
+}
+
+.border-cream-dark {
+  border-color: #DCD4C5;
+}
+
+/* Subtle magazine grid border effects */
+.editorial-border-b {
+  border-bottom: 1px solid #1A1A1A;
+}
+
+.editorial-border-t {
+  border-top: 1px solid #1A1A1A;
+}
+
+.editorial-box {
+  border: 1px solid #1A1A1A;
+  background-color: #FAF8F5;
+}
+
+.editorial-box-accent {
+  border: 1px solid #B85C38;
+  background-color: #F2E2D8;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EFE8DC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B85C38;
+}
